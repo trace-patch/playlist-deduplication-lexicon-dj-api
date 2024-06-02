@@ -134,7 +134,9 @@ function compareTracklists(plA, plB) {
 // starting execution
 const loadTime = new Date(Date.now());
 updateStatus(
-  "I am alive, you just suck time: " + loadTime.toISOString() + "<br>",
+  "Your error is in another castle. I am alive. Time: " +
+    loadTime.toISOString() +
+    "<br>",
 );
 //querying Lexicondj for all playlists
 const playlistLibrary = apiRequest("playlists");
